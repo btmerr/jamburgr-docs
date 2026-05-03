@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">The Jam Library plate for Deep house</title>
+  <desc id="desc">A generated visual summary for Deep house showing tempo, scale, pattern, bass, lead, and drum defaults.</desc>
+  <rect width="720" height="300" fill="#fffdf7"/>
+  <text x="40" y="36" fill="#77736a" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">STYLE ATLAS / deep_house</text>
+  <text x="40" y="78" fill="#141412" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="31" font-weight="600">Deep house</text>
+  <text x="42" y="106" fill="#77736a" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="13">house / 122 BPM / midtempo</text>
+  <g fill="#f4f1ea" stroke="#141412" stroke-width="2">
+    <rect x="42" y="142" width="110" height="80"/>
+    <rect x="170" y="142" width="110" height="80"/>
+    <rect x="298" y="142" width="110" height="80"/>
+    <rect x="426" y="142" width="110" height="80"/>
+    <rect x="554" y="142" width="110" height="80"/>
+  </g>
+  <g font-family="Avenir Next, Helvetica Neue, Arial, sans-serif">
+    <g fill="#77736a" font-size="11" font-weight="700" letter-spacing="1.1">
+      <text x="60" y="170">SCALE</text>
+      <text x="188" y="170">PATTERN</text>
+      <text x="316" y="170">BASS</text>
+      <text x="444" y="170">LEAD</text>
+      <text x="572" y="170">DRUMS</text>
+    </g>
+    <g fill="#141412" font-size="11" font-weight="600">
+      <text x="60" y="198">natural_min...</text>
+      <text x="188" y="198">offbeat_sta...</text>
+      <text x="316" y="198">offbeat_hou...</text>
+      <text x="444" y="198">chord_tone_...</text>
+      <text x="572" y="198">house_shuff...</text>
+    </g>
+    <text x="572" y="214" fill="#77736a" font-size="10">medium density</text>
+  </g>
+  <path d="M42 250h621" stroke="#d5cfc2" stroke-width="1"/>
+  <path d="M42 250h432" stroke="#9f3f2d" stroke-width="4"/>
+</svg>

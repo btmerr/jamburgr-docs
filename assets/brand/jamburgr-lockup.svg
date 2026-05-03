@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 256" role="img" aria-labelledby="lockup-title lockup-desc">
+  <title id="lockup-title">jamburgr lockup</title>
+  <desc id="lockup-desc">The jamburgr horizontal lockup. Jammy the mascot on the left, the wordmark on the right with a small tagline beneath.</desc>
+
+  <defs>
+    <style type="text/css">
+      @import url('https://fonts.googleapis.com/css2?family=Caprasimo&amp;family=Inter:wght@500&amp;display=swap');
+    </style>
+    <clipPath id="lockupBunClip">
+      <path d="M 36 144 L 36 96 Q 36 32 128 32 Q 220 32 220 96 L 220 144 Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- MASCOT (Jammy Classic at left, viewBox 0-256) -->
+  <g>
+    <!-- Bottom bun -->
+    <path d="M 36 188 C 36 182 40 178 46 178 L 210 178 C 216 178 220 182 220 188 L 220 200 C 220 213 209 222 195 222 L 61 222 C 47 222 36 213 36 200 Z"
+          fill="#d8a866" stroke="#1a1410" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M 46 184 L 210 184" stroke="#a87a4a" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Jam slab + drips -->
+    <path d="M 38 144 L 218 144 L 218 176 Q 218 182 212 182 L 204 182 C 207 184 208 188 208 193 C 208 196 205 198 204 198 C 202 199 200 199 198 198 C 197 198 194 196 194 193 C 194 188 195 184 198 182 L 156 182 C 162 188 164 198 164 205 C 164 209 160 212 158 212 C 154 213 150 213 146 212 C 144 212 140 209 140 205 C 140 198 142 188 148 182 L 86 182 C 89 186 90 192 90 198 C 90 202 87 204 86 204 C 84 205 82 205 80 204 C 79 204 76 202 76 198 C 76 192 77 186 80 182 L 44 182 Q 38 182 38 176 Z" fill="#e6394d" stroke="#1a1410" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/>
+    <path d="M 50 152 Q 100 149 150 152 T 204 152" stroke="#ff8a9a" stroke-width="4" fill="none" stroke-linecap="round"/>
+    <circle cx="64" cy="151" r="2.6" fill="#fff5d6"/>
+    <ellipse cx="184" cy="151" rx="3.2" ry="1.6" fill="#fff5d6"/>
+    <circle cx="124" cy="160" r="1.8" fill="#ff8a9a" opacity="0.85"/>
+    <path d="M 200 187 Q 199 192 200 196" stroke="#ff8a9a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 152 188 Q 150 200 152 209" stroke="#ff8a9a" stroke-width="2.4" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <path d="M 82 188 Q 81 195 82 201" stroke="#ff8a9a" stroke-width="2" fill="none" stroke-linecap="round" opacity="0.85"/>
+    <ellipse cx="170" cy="220" rx="3.2" ry="3.8" fill="#e6394d" stroke="#1a1410" stroke-width="2.5" stroke-linejoin="round"/>
+    <circle cx="169" cy="219" r="0.9" fill="#ff8a9a"/>
+
+    <!-- Top bun dome -->
+    <path d="M 36 144 L 36 96 Q 36 32 128 32 Q 220 32 220 96 L 220 144 Z"
+          fill="#d8a866" stroke="#1a1410" stroke-width="5" stroke-linejoin="round"/>
+    <path d="M 46 138 L 210 138" stroke="#a87a4a" stroke-width="3" fill="none" stroke-linecap="round"/>
+
+    <!-- Sesame seeds -->
+    <g clip-path="url(#lockupBunClip)">
+      <ellipse cx="80" cy="74" rx="6" ry="3.6" fill="#fbf6e4" stroke="#1a1410" stroke-width="2" transform="rotate(-14 80 74)"/>
+      <ellipse cx="128" cy="56" rx="6" ry="3.6" fill="#fbf6e4" stroke="#1a1410" stroke-width="2"/>
+      <ellipse cx="176" cy="74" rx="6" ry="3.6" fill="#fbf6e4" stroke="#1a1410" stroke-width="2" transform="rotate(14 176 74)"/>
+      <ellipse cx="58" cy="98" rx="5" ry="3.2" fill="#fbf6e4" stroke="#1a1410" stroke-width="2" transform="rotate(-30 58 98)"/>
+      <ellipse cx="198" cy="98" rx="5" ry="3.2" fill="#fbf6e4" stroke="#1a1410" stroke-width="2" transform="rotate(30 198 98)"/>
+    </g>
+
+    <!-- Cheek blush -->
+    <ellipse cx="78" cy="118" rx="9" ry="4" fill="#ff8a9a" opacity="0.55"/>
+    <ellipse cx="178" cy="118" rx="9" ry="4" fill="#ff8a9a" opacity="0.55"/>
+
+    <!-- Eyes -->
+    <circle cx="102" cy="112" r="11.5" fill="#fbf6e4" stroke="#1a1410" stroke-width="3.5"/>
+    <circle cx="154" cy="112" r="11.5" fill="#fbf6e4" stroke="#1a1410" stroke-width="3.5"/>
+    <circle cx="105" cy="114" r="5.2" fill="#1a1410"/>
+    <circle cx="157" cy="114" r="5.2" fill="#1a1410"/>
+    <circle cx="107" cy="111" r="2" fill="#fbf6e4"/>
+    <circle cx="159" cy="111" r="2" fill="#fbf6e4"/>
+
+    <!-- Smile -->
+    <path d="M 118 128 Q 128 138 138 128" stroke="#1a1410" stroke-width="3.2" fill="none" stroke-linecap="round"/>
+  </g>
+
+  <!-- WORDMARK + TAGLINE -->
+  <g>
+    <text x="280" y="146"
+          font-family="Caprasimo, 'Lobster Two', 'Cooper Std', Georgia, serif"
+          font-size="128"
+          font-weight="400"
+          fill="#2a1f15"
+          letter-spacing="-2">jamburgr</text>
+
+    <!-- Jam drip under the j (relative to wordmark x=280, j is leftmost) -->
+    <g transform="translate(290 0)">
+      <path d="M 0 158 Q 0 174 7 180 Q 14 174 14 158 Z"
+            fill="#e6394d" stroke="#1a1410" stroke-width="3" stroke-linejoin="round"/>
+      <ellipse cx="5" cy="166" rx="1.5" ry="2.2" fill="#ff8a9a"/>
+    </g>
+
+    <!-- Tagline -->
+    <text x="280" y="198"
+          font-family="Inter, 'Helvetica Neue', Arial, sans-serif"
+          font-size="22"
+          font-weight="500"
+          fill="#5b3a26"
+          letter-spacing="0.4">Tasty MIDI for your next jam.</text>
+  </g>
+</svg>

@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">jamburgr DAW import workflow</title>
+  <desc id="desc">A workflow diagram showing generated MIDI files being dragged into DAW tracks for instruments, editing, and arrangement.</desc>
+  <rect width="720" height="300" fill="#fffdf7"/>
+  <text x="40" y="36" fill="#77736a" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">DAW IMPORT WORKFLOW</text>
+  <g fill="#f4f1ea" stroke="#141412" stroke-width="2">
+    <rect x="54" y="84" width="164" height="132"/>
+    <rect x="278" y="70" width="388" height="160"/>
+  </g>
+  <g font-family="Avenir Next, Helvetica Neue, Arial, sans-serif">
+    <text x="78" y="112" fill="#141412" font-size="18" font-weight="600">pack folder</text>
+    <text x="78" y="146" fill="#30302d" font-size="13">chords.mid</text>
+    <text x="78" y="170" fill="#30302d" font-size="13">bass.mid</text>
+    <text x="78" y="194" fill="#30302d" font-size="13">pad.mid</text>
+    <text x="306" y="104" fill="#141412" font-size="18" font-weight="600">DAW session</text>
+    <rect x="306" y="130" width="310" height="22" fill="#141412"/>
+    <rect x="306" y="160" width="250" height="22" fill="#30302d"/>
+    <rect x="306" y="190" width="284" height="22" fill="#9f3f2d"/>
+    <text x="626" y="146" fill="#77736a" font-size="12">instrument</text>
+    <text x="626" y="176" fill="#77736a" font-size="12">edit</text>
+    <text x="626" y="206" fill="#77736a" font-size="12">arrange</text>
+  </g>
+  <path d="M218 150h60" stroke="#9f3f2d" stroke-width="4" stroke-linecap="square"/>
+</svg>

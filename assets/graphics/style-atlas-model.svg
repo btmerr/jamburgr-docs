@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">The Jam Library model</title>
+  <desc id="desc">A data model diagram showing each style connected to defaults, anatomy, reference canon, producer exercises, and source IDs.</desc>
+  <rect width="720" height="300" fill="#fffdf7"/>
+  <text x="40" y="36" fill="#77736a" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">STYLE ATLAS MODEL</text>
+  <g fill="#f4f1ea" stroke="#141412" stroke-width="2">
+    <rect x="286" y="106" width="148" height="68"/>
+    <rect x="52" y="70" width="150" height="46"/>
+    <rect x="52" y="184" width="150" height="46"/>
+    <rect x="518" y="70" width="150" height="46"/>
+    <rect x="518" y="184" width="150" height="46"/>
+  </g>
+  <g font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" fill="#141412">
+    <text x="318" y="146" font-size="20" font-weight="600">style</text>
+    <text x="78" y="99" font-size="15" font-weight="600">defaults</text>
+    <text x="86" y="213" font-size="15" font-weight="600">anatomy</text>
+    <text x="548" y="99" font-size="15" font-weight="600">reference canon</text>
+    <text x="548" y="213" font-size="15" font-weight="600">source IDs</text>
+  </g>
+  <g stroke="#9f3f2d" stroke-width="3" fill="none">
+    <path d="M202 93h84M202 207h84M434 140h84M434 140v67h84M434 140V93h84"/>
+  </g>
+</svg>

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">jamburgr harmony flow</title>
+  <desc id="desc">A chart showing key and scale selection flowing into Roman numerals, chord qualities, voicing, and MIDI notes.</desc>
+  <rect width="720" height="300" fill="#fffdf7"/>
+  <text x="40" y="36" fill="#77736a" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">HARMONY FLOW</text>
+  <g fill="#f4f1ea" stroke="#141412" stroke-width="2">
+    <rect x="42" y="74" width="126" height="58"/>
+    <rect x="212" y="74" width="126" height="58"/>
+    <rect x="382" y="74" width="126" height="58"/>
+    <rect x="552" y="74" width="126" height="58"/>
+    <rect x="212" y="184" width="296" height="52"/>
+  </g>
+  <g font-family="Avenir Next, Helvetica Neue, Arial, sans-serif">
+    <g fill="#141412" font-size="16" font-weight="600">
+      <text x="62" y="106">A minor</text>
+      <text x="232" y="106">i VI III VII</text>
+      <text x="402" y="106">minor_add9</text>
+      <text x="572" y="106">MIDI notes</text>
+      <text x="236" y="216">auto voice-leading / register control</text>
+    </g>
+    <g fill="#77736a" font-size="12">
+      <text x="62" y="124">root + scale</text>
+      <text x="232" y="124">degree map</text>
+      <text x="402" y="124">interval recipe</text>
+      <text x="572" y="124">0-127 safe</text>
+    </g>
+  </g>
+  <g stroke="#9f3f2d" stroke-width="3" fill="none" stroke-linecap="square">
+    <path d="M168 103h44M338 103h44M508 103h44M360 132v52"/>
+  </g>
+</svg>

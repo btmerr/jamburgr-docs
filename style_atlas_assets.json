@@ -1,0 +1,298 @@
+{
+  "assets": [
+    {
+      "style": "future_bass",
+      "src": "assets/style_atlas/future_bass.svg",
+      "alt": "Generated The Jam Library visual summary for Future bass / wonky emotional, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "melodic_bass",
+      "src": "assets/style_atlas/melodic_bass.svg",
+      "alt": "Generated The Jam Library visual summary for Melodic bass / anthem drop, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "chill_electronic",
+      "src": "assets/style_atlas/chill_electronic.svg",
+      "alt": "Generated The Jam Library visual summary for Chill electronic / indie dance, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "bittersweet_electropop",
+      "src": "assets/style_atlas/bittersweet_electropop.svg",
+      "alt": "Generated The Jam Library visual summary for Electronic pop / bittersweet synth chords, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "progressive_house",
+      "src": "assets/style_atlas/progressive_house.svg",
+      "alt": "Generated The Jam Library visual summary for Progressive house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "big_room",
+      "src": "assets/style_atlas/big_room.svg",
+      "alt": "Generated The Jam Library visual summary for Big room / festival stabs, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "trance",
+      "src": "assets/style_atlas/trance.svg",
+      "alt": "Generated The Jam Library visual summary for Uplifting trance, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "psytrance",
+      "src": "assets/style_atlas/psytrance.svg",
+      "alt": "Generated The Jam Library visual summary for Psytrance / modal drive, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "melodic_techno",
+      "src": "assets/style_atlas/melodic_techno.svg",
+      "alt": "Generated The Jam Library visual summary for Melodic techno, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "peak_techno",
+      "src": "assets/style_atlas/peak_techno.svg",
+      "alt": "Generated The Jam Library visual summary for Peak-time techno, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "ambient_techno",
+      "src": "assets/style_atlas/ambient_techno.svg",
+      "alt": "Generated The Jam Library visual summary for Ambient techno, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "acid_house",
+      "src": "assets/style_atlas/acid_house.svg",
+      "alt": "Generated The Jam Library visual summary for Acid house / 303 companion chords, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "deep_house",
+      "src": "assets/style_atlas/deep_house.svg",
+      "alt": "Generated The Jam Library visual summary for Deep house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "tech_house",
+      "src": "assets/style_atlas/tech_house.svg",
+      "alt": "Generated The Jam Library visual summary for Tech house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "minimal_deep_tech",
+      "src": "assets/style_atlas/minimal_deep_tech.svg",
+      "alt": "Generated The Jam Library visual summary for Minimal deep tech, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "garage_house",
+      "src": "assets/style_atlas/garage_house.svg",
+      "alt": "Generated The Jam Library visual summary for Garage house / swung house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "future_house",
+      "src": "assets/style_atlas/future_house.svg",
+      "alt": "Generated The Jam Library visual summary for Future house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "french_house",
+      "src": "assets/style_atlas/french_house.svg",
+      "alt": "Generated The Jam Library visual summary for French house / disco house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "tropical_house",
+      "src": "assets/style_atlas/tropical_house.svg",
+      "alt": "Generated The Jam Library visual summary for Tropical house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "afro_house",
+      "src": "assets/style_atlas/afro_house.svg",
+      "alt": "Generated The Jam Library visual summary for Afro house / organic groove, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "organic_house",
+      "src": "assets/style_atlas/organic_house.svg",
+      "alt": "Generated The Jam Library visual summary for Organic house / melodic organic, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "uk_garage",
+      "src": "assets/style_atlas/uk_garage.svg",
+      "alt": "Generated The Jam Library visual summary for UK garage / 2-step chords, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "bassline",
+      "src": "assets/style_atlas/bassline.svg",
+      "alt": "Generated The Jam Library visual summary for Bassline / speed garage, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "jersey_club",
+      "src": "assets/style_atlas/jersey_club.svg",
+      "alt": "Generated The Jam Library visual summary for Jersey club / club edits, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "baile_funk",
+      "src": "assets/style_atlas/baile_funk.svg",
+      "alt": "Generated The Jam Library visual summary for Baile funk / funk carioca, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "amapiano",
+      "src": "assets/style_atlas/amapiano.svg",
+      "alt": "Generated The Jam Library visual summary for Amapiano / log-drum inspired, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "dubstep",
+      "src": "assets/style_atlas/dubstep.svg",
+      "alt": "Generated The Jam Library visual summary for Dubstep / half-time bass, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "trap_edm",
+      "src": "assets/style_atlas/trap_edm.svg",
+      "alt": "Generated The Jam Library visual summary for EDM trap / future trap, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "phonk",
+      "src": "assets/style_atlas/phonk.svg",
+      "alt": "Generated The Jam Library visual summary for Phonk / dark drift, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "wave_hardwave",
+      "src": "assets/style_atlas/wave_hardwave.svg",
+      "alt": "Generated The Jam Library visual summary for Wave / hardwave, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "drum_and_bass",
+      "src": "assets/style_atlas/drum_and_bass.svg",
+      "alt": "Generated The Jam Library visual summary for Drum and bass, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "liquid_dnb",
+      "src": "assets/style_atlas/liquid_dnb.svg",
+      "alt": "Generated The Jam Library visual summary for Liquid DnB, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "jungle",
+      "src": "assets/style_atlas/jungle.svg",
+      "alt": "Generated The Jam Library visual summary for Jungle / breaks, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "breakbeat",
+      "src": "assets/style_atlas/breakbeat.svg",
+      "alt": "Generated The Jam Library visual summary for Breakbeat / rave breaks, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "electro",
+      "src": "assets/style_atlas/electro.svg",
+      "alt": "Generated The Jam Library visual summary for Electro / robotic funk, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "hardstyle",
+      "src": "assets/style_atlas/hardstyle.svg",
+      "alt": "Generated The Jam Library visual summary for Hardstyle / euphoric hard dance, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "synthwave",
+      "src": "assets/style_atlas/synthwave.svg",
+      "alt": "Generated The Jam Library visual summary for Synthwave / outrun, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "chillwave",
+      "src": "assets/style_atlas/chillwave.svg",
+      "alt": "Generated The Jam Library visual summary for Chillwave / nostalgic synth pop, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "downtempo",
+      "src": "assets/style_atlas/downtempo.svg",
+      "alt": "Generated The Jam Library visual summary for Downtempo / ambient electronic, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "idm_glitch",
+      "src": "assets/style_atlas/idm_glitch.svg",
+      "alt": "Generated The Jam Library visual summary for IDM / glitch electronic, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "leftfield_bass",
+      "src": "assets/style_atlas/leftfield_bass.svg",
+      "alt": "Generated The Jam Library visual summary for Leftfield bass / experimental low-end, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    },
+    {
+      "style": "lofi_house",
+      "src": "assets/style_atlas/lofi_house.svg",
+      "alt": "Generated The Jam Library visual summary for Lo-fi house, including tempo, layer defaults, and drum defaults.",
+      "kind": "style_plate",
+      "source_id": "source_britannica_edm"
+    }
+  ]
+}

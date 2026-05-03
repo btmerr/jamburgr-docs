@@ -1,0 +1,100 @@
+{
+  "project": "jamburgr",
+  "selected_logo": "option_03_piano_roll",
+  "brand_assets": [
+    {
+      "kind": "logo_mark",
+      "src": "assets/brand/jamburgr-mark.svg",
+      "alt": "Selected jamburgr piano-roll logo mark with chord blocks and a timeline cursor.",
+      "purpose": "Primary compact brand mark for the documentation interface."
+    },
+    {
+      "kind": "logo_lockup",
+      "src": "assets/brand/jamburgr-lockup.svg",
+      "alt": "Horizontal jamburgr lockup pairing the piano-roll mark with the project name.",
+      "purpose": "Primary header lockup for the documentation sidebar and brand treatment."
+    },
+    {
+      "kind": "favicon",
+      "src": "favicon.svg",
+      "alt": "Small jamburgr favicon based on the selected piano-roll mark.",
+      "purpose": "Browser tab and small-size site icon."
+    }
+  ],
+  "logo_options": [
+    {
+      "kind": "logo_option",
+      "src": "assets/brand/logo_options/option_01_step_grid.svg",
+      "alt": "Logo option one showing a MIDI step grid with an active routed accent path.",
+      "purpose": "Preserved concept option from the Phase 15 identity review."
+    },
+    {
+      "kind": "logo_option",
+      "src": "assets/brand/logo_options/option_02_signal_path.svg",
+      "alt": "Logo option two showing a signal path monogram inspired by MIDI routing.",
+      "purpose": "Preserved concept option from the Phase 15 identity review."
+    },
+    {
+      "kind": "logo_option",
+      "src": "assets/brand/logo_options/option_03_piano_roll.svg",
+      "alt": "Logo option three showing a compact piano-roll window with chord blocks.",
+      "purpose": "Selected concept option from the Phase 15 identity review."
+    },
+    {
+      "kind": "logo_option",
+      "src": "assets/brand/logo_options/option_04_transport_meter.svg",
+      "alt": "Logo option four showing technical layer meters for generated MIDI parts.",
+      "purpose": "Preserved concept option from the Phase 15 identity review."
+    },
+    {
+      "kind": "logo_option",
+      "src": "assets/brand/logo_options/option_05_modular_nodes.svg",
+      "alt": "Logo option five showing modular nodes connected like generator stages.",
+      "purpose": "Preserved concept option from the Phase 15 identity review."
+    },
+    {
+      "kind": "logo_option",
+      "src": "assets/brand/logo_options/option_06_sequencer_column.svg",
+      "alt": "Logo option six showing a vertical step sequencer with one active accent.",
+      "purpose": "Preserved concept option from the Phase 15 identity review."
+    }
+  ],
+  "graphics": [
+    {
+      "kind": "generation_pipeline",
+      "src": "assets/graphics/generation-pipeline.svg",
+      "alt": "Diagram of jamburgr moving from config input through harmony, voicing, patterning, layers, and MIDI output.",
+      "purpose": "Explain the complete generation flow at a glance."
+    },
+    {
+      "kind": "output_modes",
+      "src": "assets/graphics/output-modes.svg",
+      "alt": "Diagram comparing jamburgr single, multi, both, and pack output modes.",
+      "purpose": "Clarify the output choices before users generate MIDI."
+    },
+    {
+      "kind": "harmony_flow",
+      "src": "assets/graphics/harmony-flow.svg",
+      "alt": "Diagram showing key and scale flowing into Roman numerals, chord types, voicings, and MIDI notes.",
+      "purpose": "Explain how harmonic text settings become MIDI notes."
+    },
+    {
+      "kind": "layer_stack",
+      "src": "assets/graphics/layer-stack.svg",
+      "alt": "Diagram of jamburgr chord, bass, pad, and lead layers stacked by musical register.",
+      "purpose": "Show how generated MIDI layers divide production roles."
+    },
+    {
+      "kind": "style_atlas_model",
+      "src": "assets/graphics/style-atlas-model.svg",
+      "alt": "Diagram connecting each style to defaults, anatomy, reference canon, producer exercises, and source IDs.",
+      "purpose": "Explain the educational The Jam Library data model."
+    },
+    {
+      "kind": "daw_import_workflow",
+      "src": "assets/graphics/daw-import-workflow.svg",
+      "alt": "Diagram showing jamburgr MIDI files being dragged from a pack folder into a DAW session.",
+      "purpose": "Clarify the producer workflow after MIDI generation."
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
+  <title id="title">jamburgr generation pipeline</title>
+  <desc id="desc">A left-to-right diagram showing config input, harmony resolution, voicing, patterning, layer generation, and Standard MIDI output.</desc>
+  <rect width="720" height="300" fill="#fffdf7"/>
+  <g fill="none" stroke="#d5cfc2" stroke-width="1">
+    <path d="M40 66h640M40 138h640M40 210h640"/>
+    <path d="M120 38v224M240 38v224M360 38v224M480 38v224M600 38v224"/>
+  </g>
+  <g font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" letter-spacing="0">
+    <text x="42" y="32" fill="#77736a" font-size="12" font-weight="700">GENERATION PIPELINE</text>
+    <g fill="#141412" font-size="15" font-weight="600">
+      <text x="55" y="94">Config</text>
+      <text x="170" y="94">Harmony</text>
+      <text x="292" y="94">Voicing</text>
+      <text x="412" y="94">Pattern</text>
+      <text x="534" y="94">Layers</text>
+      <text x="642" y="94">MIDI</text>
+    </g>
+    <g fill="#30302d" font-size="12">
+      <text x="55" y="192">key / style</text>
+      <text x="55" y="210">progression</text>
+      <text x="170" y="192">scale degrees</text>
+      <text x="170" y="210">chord roots</text>
+      <text x="292" y="192">inversions</text>
+      <text x="292" y="210">registers</text>
+      <text x="412" y="192">gates</text>
+      <text x="412" y="210">arps</text>
+      <text x="534" y="192">chords</text>
+      <text x="534" y="210">bass pad lead</text>
+      <text x="642" y="192">MThd</text>
+      <text x="642" y="210">clips</text>
+    </g>
+  </g>
+  <g fill="#f4f1ea" stroke="#141412" stroke-width="2">
+    <rect x="42" y="112" width="74" height="54"/>
+    <rect x="162" y="112" width="74" height="54"/>
+    <rect x="282" y="112" width="74" height="54"/>
+    <rect x="402" y="112" width="74" height="54"/>
+    <rect x="522" y="112" width="74" height="54"/>
+    <rect x="642" y="112" width="48" height="54"/>
+  </g>
+  <g fill="none" stroke="#9f3f2d" stroke-width="3" stroke-linecap="square">
+    <path d="M116 139h46M236 139h46M356 139h46M476 139h46M596 139h46"/>
+  </g>
+</svg>
