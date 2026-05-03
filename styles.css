@@ -932,16 +932,16 @@ pre code {
   font-size: 0.9rem;
 }
 
-.reference-lane-library .code-panel {
+.recipe-library .code-panel {
   margin: 1rem 0 1.4rem;
 }
 
-.reference-lane-group {
+.recipe-group {
   padding: 1.4rem 0;
   border-top: 1px solid var(--rule-strong);
 }
 
-.reference-lane-group > h3 {
+.recipe-group > h3 {
   margin: 0 0 1rem;
   color: var(--muted);
   font-size: 0.78rem;
@@ -949,7 +949,7 @@ pre code {
   text-transform: uppercase;
 }
 
-.reference-lane-style {
+.recipe-style {
   display: grid;
   grid-template-columns: minmax(11rem, 0.24fr) minmax(0, 0.34fr) minmax(0, 1fr);
   gap: 1rem;
@@ -957,13 +957,13 @@ pre code {
   border-top: 1px solid var(--rule);
 }
 
-.reference-lane-style h3 {
+.recipe-style h3 {
   margin: 0 0 0.35rem;
   font-size: 1rem;
   line-height: 1.2;
 }
 
-.reference-lane-style p {
+.recipe-style p {
   margin: 0;
   color: var(--graphite);
   font-size: 0.9rem;
@@ -1209,7 +1209,7 @@ td {
   .atlas-card-grid,
   .atlas-columns,
   .reference-canon,
-  .reference-lane-style {
+  .recipe-style {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
 
@@ -1295,7 +1295,7 @@ td {
   .atlas-card-grid,
   .atlas-columns,
   .reference-canon,
-  .reference-lane-style,
+  .recipe-style,
   .atlas-facts div {
     grid-template-columns: 1fr;
   }
