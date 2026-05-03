@@ -994,6 +994,19 @@ pre code {
   text-transform: capitalize;
 }
 
+.config-list .recipe-role {
+  display: inline-block;
+  margin-left: 0.35rem;
+  padding: 0.08rem 0.32rem;
+  border: 1px solid var(--rule-strong);
+  border-radius: 999px;
+  color: var(--muted);
+  font-size: 0.66rem;
+  font-weight: 800;
+  line-height: 1.2;
+  text-transform: uppercase;
+}
+
 .config-list code {
   overflow: hidden;
   text-overflow: ellipsis;
