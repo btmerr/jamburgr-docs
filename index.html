@@ -2188,21 +2188,21 @@
         </div>
                 </section>
 
-                <div class="atlas-chip-row" aria-label="Common instruments"><span>analog-style bass</span><span>gated supersaws</span><span>FM bells</span><span>rave stabs</span><span>sequenced arps</span></div>
+                <div class="atlas-chip-row" aria-label="Common instruments"><span>gated supersaw chords</span><span>bright pluck leads</span><span>octave-pulse bass</span><span>wide shimmer pads</span><span>909-style kick and ride</span><span>noise risers and downlifters</span></div>
                 <div class="atlas-columns">
                   <div>
                     <h4>Gear and synthesis</h4>
-                    <p>Roland TR-909 lineage, Roland TB-303 lineage, step sequencers, analog monosynths</p>
-                    <p>resonant filter sweeps, tempo-synced gates, acid slides, supersaw detune, FM plucks</p>
+                    <p>Roland JP-8000 supersaw lineage, Access Virus-style virtual analog, Roland TR-909 lineage, tempo-synced gate effects</p>
+                    <p>supersaw detune, tempo-synced gates, long reverb tails, ping-pong delay, filter-open builds</p>
                   </div>
                   <div>
                     <h4>Listen for</h4>
-                    <p>long builds, filter-open tension, drum-led breakdowns, return-to-groove drops</p>
-                    <p>tempo delay, large hall reverb, drive saturation, sidechain compression</p>
+                    <p>long drum-led intro, breakdown pad reveal, snare-roll build, lead return after silence, extended outro for DJ mixing</p>
+                    <p>sidechain compression, wide chorus, large hall reverb, tempo delay throws, high-pass filter automation</p>
                   </div>
                   <div>
                     <h4>Try this in your DAW</h4>
-                    <ul class="md-list"><li>Limit the harmony to one or two Roman numerals and make motion through inversion, register, and pattern.</li><li>Render a pack, then mute lanes one by one to find the smallest loop that still carries the style.</li><li>Write a sixteen-bar section where the chord MIDI stays stable but lead density rises gradually.</li></ul>
+                    <ul class="md-list"><li>Write the gated chord rhythm first, then let the pluck answer only at phrase endings.</li><li>Make the breakdown work with pads and bass muted before bringing the lead back.</li><li>Export section MIDI files and test the drop return with only bass, drums, and pluck.</li></ul>
                   </div>
                 </div>
                 <div class="atlas-columns reference-canon">
@@ -2237,7 +2237,7 @@
 </ol>
                   </div>
                 </div>
-                <p><a class="text-link strong" href="#recipes-trance">Open the 10 recipe configs for trance</a></p>
+                <p><a class="text-link strong" href="#recipes-trance">Open the public recipes for trance</a></p>
               </div>
             </section>
 
@@ -9010,7 +9010,7 @@
       <section class="doc-chunk section-band recipe-library" id="recipe-config-library">
         <div class="section-kicker">Recipe Config Library</div>
         <h2>Original recipes and study configs for every style.</h2>
-        <p>The library is moving from broad study configs toward named Jam Library recipes. Authored recipe sets are available for: Deep house, Tech house, French house / disco house, Afro house / organic groove, UK garage / 2-step chords, Amapiano / log-drum inspired, Synthwave / outrun. Amapiano native log-drum and percussion behavior is still tracked as product work. Remaining styles still expose the original study configs until their recipe sets land.</p>
+        <p>The library is moving from broad study configs toward named Jam Library recipes. Authored recipe sets are available for: Uplifting trance, Deep house, Tech house, French house / disco house, Afro house / organic groove, UK garage / 2-step chords, Amapiano / log-drum inspired, Synthwave / outrun. Amapiano native log-drum and percussion behavior is still tracked as product work. Remaining styles still expose the original study configs until their recipe sets land.</p>
         <div class="code-panel compact">
           <div class="code-panel__bar"><span>run a recipe config</span><button class="copy-button" type="button">Copy</button></div>
           <pre><code>python jamburgr.py --config configs/recipes/synthwave/synthwave_night_drive_arp.md</code></pre>
@@ -10837,65 +10837,41 @@
                     <h3>Uplifting trance</h3>
                     <code>trance</code>
                   </div>
-                  <p>Ten original study configs for this style, with chords, bass, pads, leads, and editable General MIDI drums enabled. Run any file with <code>python jamburgr.py --config configs/recipes/trance/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one hero, a set of alternates, one arrangement recipe, and one bridge-ready recipe. 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/trance/filename.md</code>.</p>
                   <ol class="config-list">
-                    <li id="recipe-file-trance_arp_motion_study">
-                      <span>arp motion study </span>
-                      <code>configs/recipes/trance/trance_arp_motion_study.md</code>
+                    <li id="recipe-file-trance_euphoric_gate_pluck">
+                      <span>Euphoric Gate Pluck <span class="recipe-role">hero</span></span>
+                      <code>configs/recipes/trance/trance_euphoric_gate_pluck.md</code>
                       <a href="#atlas-trance">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-trance_chop_and_stab_study">
-                      <span>chop and stab study </span>
-                      <code>configs/recipes/trance/trance_chop_and_stab_study.md</code>
+                    <li id="recipe-file-trance_airwave_bass_pulse">
+                      <span>Airwave Bass Pulse <span class="recipe-role">alternate</span></span>
+                      <code>configs/recipes/trance/trance_airwave_bass_pulse.md</code>
                       <a href="#atlas-trance">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-trance_club_energy_variation_study">
-                      <span>club energy variation study </span>
-                      <code>configs/recipes/trance/trance_club_energy_variation_study.md</code>
+                    <li id="recipe-file-trance_classic_supersaw_lift">
+                      <span>Classic Supersaw Lift <span class="recipe-role">alternate</span></span>
+                      <code>configs/recipes/trance/trance_classic_supersaw_lift.md</code>
                       <a href="#atlas-trance">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-trance_default_layer_pack_study">
-                      <span>default layer pack study </span>
-                      <code>configs/recipes/trance/trance_default_layer_pack_study.md</code>
+                    <li id="recipe-file-trance_solar_breakdown_swell">
+                      <span>Solar Breakdown Swell <span class="recipe-role">alternate</span></span>
+                      <code>configs/recipes/trance/trance_solar_breakdown_swell.md</code>
                       <a href="#atlas-trance">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-trance_modal_pedal_study">
-                      <span>modal pedal study </span>
-                      <code>configs/recipes/trance/trance_modal_pedal_study.md</code>
+                    <li id="recipe-file-trance_breakdown_return_section_sketch">
+                      <span>Breakdown Return Section Sketch <span class="recipe-role">arrangement</span></span>
+                      <code>configs/recipes/trance/trance_breakdown_return_section_sketch.md</code>
                       <a href="#atlas-trance">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-trance_offbeat_bass_response_study">
-                      <span>offbeat bass response study </span>
-                      <code>configs/recipes/trance/trance_offbeat_bass_response_study.md</code>
-                      <a href="#atlas-trance">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-trance_pentatonic_hook_study">
-                      <span>pentatonic hook study </span>
-                      <code>configs/recipes/trance/trance_pentatonic_hook_study.md</code>
-                      <a href="#atlas-trance">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-trance_sparse_texture_map_study">
-                      <span>sparse texture map study </span>
-                      <code>configs/recipes/trance/trance_sparse_texture_map_study.md</code>
-                      <a href="#atlas-trance">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-trance_voice_led_pad_study">
-                      <span>voice led pad study </span>
-                      <code>configs/recipes/trance/trance_voice_led_pad_study.md</code>
-                      <a href="#atlas-trance">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-trance_wide_section_sketch_study">
-                      <span>wide section sketch study </span>
-                      <code>configs/recipes/trance/trance_wide_section_sketch_study.md</code>
+                    <li id="recipe-file-trance_bridge_ready_uplift_session">
+                      <span>Bridge-Ready Uplift Session <span class="recipe-role">bridge ready</span></span>
+                      <code>configs/recipes/trance/trance_bridge_ready_uplift_session.md</code>
                       <a href="#atlas-trance">Atlas</a>
                     </li>
                     </ol>
@@ -13990,7 +13966,7 @@ sample_search_sections: auto</code></pre></div>
 <li>an arrangement idea</li>
 <li>source IDs from The Jam Library</li>
 </ul>
-<p>The HTML documentation groups the library by style family. Synthwave, deep house, tech house, UK garage, French House, Afro House, and Amapiano now have public hero/alternate/arrangement/bridge-ready recipe sets. Amapiano&#x27;s native log-drum and percussion behavior is still tracked as product work. Other styles still show the original study configs until their recipe sets are authored.</p>
+<p>The HTML documentation groups the library by style family. Synthwave, trance, deep house, tech house, UK garage, French House, Afro House, and Amapiano now have public hero/alternate/arrangement/bridge-ready recipe sets. Amapiano&#x27;s native log-drum and percussion behavior is still tracked as product work. Other styles still show the original study configs until their recipe sets are authored.</p>
 </section>
 <section class="doc-chunk manual-section" id="21-full-style-and-progression-reference">
 <h2 class="anchor-heading"><a href="#21-full-style-and-progression-reference" aria-label="Link to 21. Full style and progression reference">#</a>21. Full style and progression reference</h2>
