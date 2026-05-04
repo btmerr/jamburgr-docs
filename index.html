@@ -3539,21 +3539,21 @@
         </div>
                 </section>
 
-                <div class="atlas-chip-row" aria-label="Common instruments"><span>electric piano</span><span>organ stabs</span><span>sampled chord chops</span><span>sub bass</span><span>drum machine percussion</span></div>
+                <div class="atlas-chip-row" aria-label="Common instruments"><span>short synth stabs</span><span>organ chord stabs</span><span>filtered chord chops</span><span>percussive synth hits</span><span>mono low-mid bass</span><span>tight 909-style drums</span><span>filtered vocal-color one-shots</span></div>
                 <div class="atlas-columns">
                   <div>
                     <h4>Gear and synthesis</h4>
-                    <p>Roland TR-909 lineage, Roland TR-808 lineage, Akai-style samplers, MIDI chord modules</p>
-                    <p>filter envelopes, sample filtering, short amp envelopes, chorused keys, subtractive bass patches</p>
+                    <p>Roland TR-909 lineage, Akai-style samplers, subtractive mono synths, DJ-mixer filter workflows</p>
+                    <p>short amp envelopes, low-pass filter automation, sample gating, delay throws on one-shots, mono bass saturation</p>
                   </div>
                   <div>
                     <h4>Listen for</h4>
-                    <p>DJ-friendly intros, incremental mutes, breakdowns, drop returns, loop variation</p>
-                    <p>bus compression, delay sends, filtered transitions, spring or plate reverb</p>
+                    <p>drums-first intros, bass mutes, late stab reveals, one-bar percussion fills, DJ-friendly return points</p>
+                    <p>tight bus compression, short room reverb, filtered transitions, tempo delay throws, low-mid saturation</p>
                   </div>
                   <div>
                     <h4>Try this in your DAW</h4>
-                    <ul class="md-list"><li>Make a two-chord groove and change only rhythm, voicing, and bass placement over sixteen bars.</li><li>Create an original offbeat chord stab layer, then duplicate it an octave up for a lighter variation.</li><li>Use pack mode to compare chord, bass, and pad lanes as separate DAW clips.</li></ul>
+                    <ul class="md-list"><li>Loop eight bars and make the kick-bass-stab pocket work before adding another chord.</li><li>Use mutes and filter openings as the arrangement before writing a new melody.</li><li>Export section MIDI files and test whether the groove still works with the lead muted.</li></ul>
                   </div>
                 </div>
                 <div class="atlas-columns reference-canon">
@@ -3588,7 +3588,7 @@
 </ol>
                   </div>
                 </div>
-                <p><a class="text-link strong" href="#recipes-tech_house">Open the 10 recipe configs for tech_house</a></p>
+                <p><a class="text-link strong" href="#recipes-tech_house">Open the public recipes for tech_house</a></p>
               </div>
             </section>
 
@@ -9010,7 +9010,7 @@
       <section class="doc-chunk section-band recipe-library" id="recipe-config-library">
         <div class="section-kicker">Recipe Config Library</div>
         <h2>Original recipes and study configs for every style.</h2>
-        <p>The library is moving from broad study configs toward named Jam Library recipes. Authored recipe sets are available for: Deep house, French house / disco house, Afro house / organic groove, UK garage / 2-step chords, Amapiano / log-drum inspired, Synthwave / outrun. Amapiano native log-drum and percussion behavior are still tracked as product work. Remaining styles still expose the original study configs until their recipe sets land.</p>
+        <p>The library is moving from broad study configs toward named Jam Library recipes. Authored recipe sets are available for: Deep house, Tech house, French house / disco house, Afro house / organic groove, UK garage / 2-step chords, Amapiano / log-drum inspired, Synthwave / outrun. Amapiano native log-drum and percussion behavior is still tracked as product work. Remaining styles still expose the original study configs until their recipe sets land.</p>
         <div class="code-panel compact">
           <div class="code-panel__bar"><span>run a recipe config</span><button class="copy-button" type="button">Copy</button></div>
           <pre><code>python jamburgr.py --config configs/recipes/synthwave/synthwave_night_drive_arp.md</code></pre>
@@ -9700,7 +9700,7 @@
                     <h3>Amapiano / log-drum inspired</h3>
                     <code>amapiano</code>
                   </div>
-                  <p>Authored recipe set for this style: one hero, a set of alternates, one arrangement recipe, and one bridge-ready recipe. Native log-drum and percussion behavior are still tracked as product work. 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/amapiano/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one hero, a set of alternates, one arrangement recipe, and one bridge-ready recipe. Native log-drum and percussion behavior is still tracked as product work. 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/amapiano/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-amapiano_spacious_piano_pocket">
                       <span>Spacious Piano Pocket <span class="recipe-role">hero</span></span>
@@ -10002,65 +10002,41 @@
                     <h3>Tech house</h3>
                     <code>tech_house</code>
                   </div>
-                  <p>Ten original study configs for this style, with chords, bass, pads, leads, and editable General MIDI drums enabled. Run any file with <code>python jamburgr.py --config configs/recipes/tech_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one hero, a set of alternates, one arrangement recipe, and one bridge-ready recipe. 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/tech_house/filename.md</code>.</p>
                   <ol class="config-list">
-                    <li id="recipe-file-tech_house_arp_motion_study">
-                      <span>arp motion study </span>
-                      <code>configs/recipes/tech_house/tech_house_arp_motion_study.md</code>
+                    <li id="recipe-file-tech_house_tight_stab_club_pocket">
+                      <span>Tight Stab Club Pocket <span class="recipe-role">hero</span></span>
+                      <code>configs/recipes/tech_house/tech_house_tight_stab_club_pocket.md</code>
                       <a href="#atlas-tech_house">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-tech_house_chop_and_stab_study">
-                      <span>chop and stab study </span>
-                      <code>configs/recipes/tech_house/tech_house_chop_and_stab_study.md</code>
+                    <li id="recipe-file-tech_house_filtered_chop_response">
+                      <span>Filtered Chop Response <span class="recipe-role">alternate</span></span>
+                      <code>configs/recipes/tech_house/tech_house_filtered_chop_response.md</code>
                       <a href="#atlas-tech_house">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-tech_house_club_energy_variation_study">
-                      <span>club energy variation study </span>
-                      <code>configs/recipes/tech_house/tech_house_club_energy_variation_study.md</code>
+                    <li id="recipe-file-tech_house_minimal_loop_pressure">
+                      <span>Minimal Loop Pressure <span class="recipe-role">alternate</span></span>
+                      <code>configs/recipes/tech_house/tech_house_minimal_loop_pressure.md</code>
                       <a href="#atlas-tech_house">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-tech_house_default_layer_pack_study">
-                      <span>default layer pack study </span>
-                      <code>configs/recipes/tech_house/tech_house_default_layer_pack_study.md</code>
+                    <li id="recipe-file-tech_house_shuffle_bass_answer">
+                      <span>Shuffle Bass Answer <span class="recipe-role">alternate</span></span>
+                      <code>configs/recipes/tech_house/tech_house_shuffle_bass_answer.md</code>
                       <a href="#atlas-tech_house">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-tech_house_modal_pedal_study">
-                      <span>modal pedal study </span>
-                      <code>configs/recipes/tech_house/tech_house_modal_pedal_study.md</code>
+                    <li id="recipe-file-tech_house_night_shift_section_sketch">
+                      <span>Night Shift Section Sketch <span class="recipe-role">arrangement</span></span>
+                      <code>configs/recipes/tech_house/tech_house_night_shift_section_sketch.md</code>
                       <a href="#atlas-tech_house">Atlas</a>
                     </li>
 
-                    <li id="recipe-file-tech_house_offbeat_bass_response_study">
-                      <span>offbeat bass response study </span>
-                      <code>configs/recipes/tech_house/tech_house_offbeat_bass_response_study.md</code>
-                      <a href="#atlas-tech_house">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-tech_house_pentatonic_hook_study">
-                      <span>pentatonic hook study </span>
-                      <code>configs/recipes/tech_house/tech_house_pentatonic_hook_study.md</code>
-                      <a href="#atlas-tech_house">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-tech_house_sparse_texture_map_study">
-                      <span>sparse texture map study </span>
-                      <code>configs/recipes/tech_house/tech_house_sparse_texture_map_study.md</code>
-                      <a href="#atlas-tech_house">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-tech_house_voice_led_pad_study">
-                      <span>voice led pad study </span>
-                      <code>configs/recipes/tech_house/tech_house_voice_led_pad_study.md</code>
-                      <a href="#atlas-tech_house">Atlas</a>
-                    </li>
-
-                    <li id="recipe-file-tech_house_wide_section_sketch_study">
-                      <span>wide section sketch study </span>
-                      <code>configs/recipes/tech_house/tech_house_wide_section_sketch_study.md</code>
+                    <li id="recipe-file-tech_house_bridge_ready_club_session">
+                      <span>Bridge-Ready Club Session <span class="recipe-role">bridge ready</span></span>
+                      <code>configs/recipes/tech_house/tech_house_bridge_ready_club_session.md</code>
                       <a href="#atlas-tech_house">Atlas</a>
                     </li>
                     </ol>
@@ -14014,7 +13990,7 @@ sample_search_sections: auto</code></pre></div>
 <li>an arrangement idea</li>
 <li>source IDs from The Jam Library</li>
 </ul>
-<p>The HTML documentation groups the library by style family. Synthwave, deep house, UK garage, French House, Afro House, and Amapiano now have public hero/alternate/arrangement/bridge-ready recipe sets. Amapiano&#x27;s native log-drum and percussion behavior is still tracked as product work. Other styles still show the original study configs until their recipe sets are authored.</p>
+<p>The HTML documentation groups the library by style family. Synthwave, deep house, tech house, UK garage, French House, Afro House, and Amapiano now have public hero/alternate/arrangement/bridge-ready recipe sets. Amapiano&#x27;s native log-drum and percussion behavior is still tracked as product work. Other styles still show the original study configs until their recipe sets are authored.</p>
 </section>
 <section class="doc-chunk manual-section" id="21-full-style-and-progression-reference">
 <h2 class="anchor-heading"><a href="#21-full-style-and-progression-reference" aria-label="Link to 21. Full style and progression reference">#</a>21. Full style and progression reference</h2>
