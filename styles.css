@@ -1,23 +1,4 @@
-:root {
-  color-scheme: light;
-  --paper: #f4f1ea;
-  --paper-quiet: #ebe7dd;
-  --surface: #fffdf7;
-  --ink: #141412;
-  --graphite: #30302d;
-  --muted: #77736a;
-  --rule: #d5cfc2;
-  --rule-strong: #aaa294;
-  --accent: #9f3f2d;
-  --accent-dark: #702a1d;
-  --panel: #20201d;
-  --panel-ink: #f4f1ea;
-  --panel-muted: #bdb6a9;
-  --mono: "Berkeley Mono", "JetBrains Mono", "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
-  --sans: "Avenir Next", "Neue Haas Grotesk Text", "Helvetica Neue", Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --display: "Avenir Next", "Helvetica Neue", Inter, ui-sans-serif, system-ui, sans-serif;
-}
-
+/* jamburgr-theme: linked */
 * {
   box-sizing: border-box;
 }
@@ -41,7 +22,7 @@ body {
 
 a {
   color: inherit;
-  text-decoration-color: rgba(159, 63, 45, 0.35);
+  text-decoration-color: rgb(var(--jb-rgb-strawberry) / 0.35);
   text-underline-offset: 0.18em;
 }
 
@@ -182,14 +163,14 @@ pre code {
   min-height: 2.35rem;
   padding: 0.55rem 0.65rem;
   border: 1px solid var(--rule-strong);
-  border-radius: 2px;
+  border-radius: var(--radius-control);
   background: var(--surface);
   color: var(--ink);
   font: inherit;
 }
 
 .site-search:focus {
-  outline: 2px solid rgba(159, 63, 45, 0.25);
+  outline: 2px solid rgb(var(--jb-rgb-strawberry) / 0.25);
   border-color: var(--accent);
 }
 
@@ -212,7 +193,7 @@ pre code {
 .nav-list a:hover,
 .nav-list a.is-active {
   border-left-color: var(--accent);
-  background: rgba(159, 63, 45, 0.055);
+  background: rgb(var(--jb-rgb-strawberry) / 0.055);
   color: var(--ink);
 }
 
@@ -247,6 +228,11 @@ pre code {
   grid-template-columns: minmax(0, 1.1fr) minmax(20rem, 0.74fr);
   gap: 3.5rem;
   align-items: end;
+}
+
+.hero-copy,
+.hero-grid > div {
+  min-width: 0;
 }
 
 .hero h1 {
@@ -380,6 +366,12 @@ pre code {
   margin-top: 1.4rem;
 }
 
+.command-grid > div,
+.recipe-style > div,
+.atlas-detail > div {
+  min-width: 0;
+}
+
 .command-grid h3,
 .example-block h3 {
   margin: 0 0 0.65rem;
@@ -501,25 +493,25 @@ pre code {
 }
 
 .chord-blocks rect {
-  fill: rgba(159, 63, 45, 0.18);
+  fill: rgb(var(--jb-rgb-strawberry) / 0.18);
   stroke: var(--accent);
   stroke-width: 1;
 }
 
 .arp-steps rect,
 .pattern-strip rect {
-  fill: #252520;
+  fill: var(--ink);
 }
 
 .pipeline rect,
 .file-stack rect {
   fill: transparent;
-  stroke: #252520;
+  stroke: var(--ink);
   stroke-width: 1;
 }
 
 .pipeline text {
-  fill: #252520;
+  fill: var(--ink);
   font-family: var(--mono);
   font-size: 18px;
 }
@@ -564,7 +556,7 @@ pre code {
   min-height: 2.35rem;
   padding: 0.5rem 0.6rem;
   border: 1px solid var(--rule-strong);
-  border-radius: 2px;
+  border-radius: var(--radius-control);
   background: var(--surface);
   color: var(--ink);
   font: 400 0.95rem/1.2 var(--sans);
@@ -645,7 +637,7 @@ pre code {
   align-self: flex-start;
   padding: 0.25rem 0.4rem;
   border: 1px solid var(--rule);
-  background: rgba(159, 63, 45, 0.06);
+  background: rgb(var(--jb-rgb-strawberry) / 0.06);
   color: var(--graphite);
   font-size: 0.75rem !important;
   line-height: 1.25;
@@ -683,7 +675,7 @@ pre code {
 }
 
 .atlas-card__actions a:hover {
-  background: rgba(159, 63, 45, 0.08);
+  background: rgb(var(--jb-rgb-strawberry) / 0.08);
   color: var(--accent);
 }
 
@@ -1142,11 +1134,22 @@ td {
   font-size: 0.72rem;
 }
 
+.code-panel__bar span {
+  min-width: 0;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.code-panel__bar button {
+  flex: 0 0 auto;
+}
+
 .copy-button,
 .nav-toggle {
   min-height: 1.65rem;
   border: 1px solid currentColor;
-  border-radius: 2px;
+  border-radius: var(--radius-control);
   background: transparent;
   color: inherit;
   font: inherit;
@@ -1194,7 +1197,7 @@ td {
   }
 
   .hero-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
     gap: 2rem;
   }
 
@@ -1267,7 +1270,11 @@ td {
   }
 
   .hero h1 {
-    font-size: 3.25rem;
+    max-width: 100%;
+    font-family: var(--sans);
+    font-size: 2.65rem;
+    font-weight: 900;
+    line-height: 1;
   }
 
   .hero-lede {
@@ -1297,7 +1304,7 @@ td {
   .reference-canon,
   .recipe-style,
   .atlas-facts div {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .config-list li {
