@@ -51,7 +51,7 @@
 <a class="nav-sub" href="#16-section-aware-daw-export">16. Section-aware DAW export</a>
 <a class="nav-sub" href="#17-sound-design-recommendation-cards">17. Sound-design recommendation cards</a>
 <a class="nav-sub" href="#18-style-library-overview">18. Style library overview</a>
-<a class="nav-sub" href="#19-the-jam-library-metadata">19. The Jam Library metadata</a>
+<a class="nav-sub" href="#19-the-jam-library-guide">19. The Jam Library guide</a>
 <a class="nav-sub" href="#20-recipe-config-library">20. Recipe Config Library</a>
 <a class="nav-sub" href="#21-full-style-and-progression-reference">21. Full style and progression reference</a>
 <a class="nav-sub" href="#22-progression-option-behavior">22. Progression option behavior</a>
@@ -232,7 +232,7 @@
       <section class="doc-chunk section-band style-atlas" id="style-atlas">
         <div class="section-kicker">The Jam Library</div>
         <h2>Style-aware defaults with producer context.</h2>
-        <p>The atlas turns jamburgr's style presets into a learning surface: each style shows tempo, scale, groove feel, harmonic habits, layer roles, drum preset/density/swing, General MIDI routing guidance, reference canon context, producer exercises, source IDs, and whether the lane is currently Work In Progress.</p>
+        <p>The atlas turns jamburgr's style presets into a learning surface: each style shows tempo, scale, groove feel, harmonic habits, layer roles, drum preset/density/swing, General MIDI routing guidance, reference canon context, producer exercises, source references, and whether the lane is currently Work In Progress.</p>
         <div class="atlas-controls" aria-label="The Jam Library filters">
           <label>Search <input id="atlas-search" type="search" placeholder="acid_house, Berlin, 909, Work In Progress"></label>
           <label>Family <select id="atlas-family"><option value="">All families</option><option value="bass music">bass music</option>
@@ -9011,7 +9011,7 @@
       <section class="doc-chunk section-band recipe-library" id="recipe-config-library">
         <div class="section-kicker">Recipe Config Library</div>
         <h2>Original recipes and study configs for every style.</h2>
-        <p>The library is moving from broad study configs toward named Jam Library recipes. Authored recipe sets are available for: Future bass / wonky emotional, Melodic bass / anthem drop, Chill electronic / indie dance, Electronic pop / bittersweet synth chords, Progressive house, Big room / festival stabs, Uplifting trance, Psytrance / modal drive, Melodic techno, Peak-time techno, Ambient techno, Acid house / 303 companion chords, Deep house, Tech house, Minimal deep tech, Garage house / swung house, Future house, French house / disco house, Tropical house, Afro house / organic groove, Organic house / melodic organic, UK garage / 2-step chords, Bassline / speed garage, Jersey club / club edits, Baile funk / funk carioca, Amapiano / log-drum inspired, Dubstep / half-time bass, EDM trap / future trap, Phonk / dark drift, Wave / hardwave, Drum and bass, Liquid DnB, Jungle / breaks, Breakbeat / rave breaks, Electro / robotic funk, Hardstyle / euphoric hard dance, Synthwave / outrun, Chillwave / nostalgic synth pop, Downtempo / ambient electronic, IDM / glitch electronic, Leftfield bass / experimental low-end, Lo-fi house. Every recipe can save MIDI and build a jamburgr Live launch plan; bridge-ready recipes are the curated Live handoffs with richer section, setup, and sample-search guidance. Styles below the current 6.0 quality bar are labeled Work In Progress and paused until the core acid-house, techno, and progressive-house lanes are strong enough for producer review.</p>
+        <p>The library is moving from broad study configs toward named Jam Library recipes. Authored recipe sets are available for: Future bass / wonky emotional, Melodic bass / anthem drop, Chill electronic / indie dance, Electronic pop / bittersweet synth chords, Progressive house, Big room / festival stabs, Uplifting trance, Psytrance / modal drive, Melodic techno, Peak-time techno, Ambient techno, Acid house / 303 companion chords, Deep house, Tech house, Minimal deep tech, Garage house / swung house, Future house, French house / disco house, Tropical house, Afro house / organic groove, Organic house / melodic organic, UK garage / 2-step chords, Bassline / speed garage, Jersey club / club edits, Baile funk / funk carioca, Amapiano / log-drum inspired, Dubstep / half-time bass, EDM trap / future trap, Phonk / dark drift, Wave / hardwave, Drum and bass, Liquid DnB, Jungle / breaks, Breakbeat / rave breaks, Electro / robotic funk, Hardstyle / euphoric hard dance, Synthwave / outrun, Chillwave / nostalgic synth pop, Downtempo / ambient electronic, IDM / glitch electronic, Leftfield bass / experimental low-end, Lo-fi house. Every recipe can save MIDI and prepare a jamburgr Live handoff plan when the local helper is ready; curated Live recipes add richer section, setup, and sample-search guidance. Styles labeled Work In Progress remain runnable and useful as editable prompts, but they need more producer listening before they become favorite starting points.</p>
         <div class="code-panel compact">
           <div class="code-panel__bar"><span>run a recipe config</span><button class="copy-button" type="button">Copy</button></div>
           <pre><code>python jamburgr.py --config configs/recipes/acid_house/acid_house_303_companion_stabs.md</code></pre>
@@ -9025,7 +9025,7 @@
                     <h3>Future bass / wonky emotional</h3>
                     <code>future_bass</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/future_bass/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/future_bass/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-future_bass_wide_chop_drop">
                       <span>Wide Chop Drop <span class="recipe-role">starter</span></span>
@@ -9070,7 +9070,7 @@
                     <h3>Melodic bass / anthem drop</h3>
                     <code>melodic_bass</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/melodic_bass/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/melodic_bass/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-melodic_bass_cinematic_drop_lift">
                       <span>Cinematic Drop Lift <span class="recipe-role">starter</span></span>
@@ -9115,7 +9115,7 @@
                     <h3>EDM trap / future trap <span class="recipe-role">Work In Progress</span></h3>
                     <code>trap_edm</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/trap_edm/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/trap_edm/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-trap_edm_brass_808_drop">
                       <span>Brass 808 Drop <span class="recipe-role">starter</span></span>
@@ -9160,7 +9160,7 @@
                     <h3>Phonk / dark drift <span class="recipe-role">Work In Progress</span></h3>
                     <code>phonk</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/phonk/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/phonk/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-phonk_drift_cowbell_shadow">
                       <span>Drift Cowbell Shadow <span class="recipe-role">starter</span></span>
@@ -9205,7 +9205,7 @@
                     <h3>Wave / hardwave</h3>
                     <code>wave_hardwave</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/wave_hardwave/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/wave_hardwave/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-wave_hardwave_neon_sidechain_wave">
                       <span>Neon Sidechain Wave <span class="recipe-role">starter</span></span>
@@ -9255,7 +9255,7 @@
                     <h3>IDM / glitch electronic <span class="recipe-role">Work In Progress</span></h3>
                     <code>idm_glitch</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/idm_glitch/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/idm_glitch/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-idm_glitch_fractured_euclidean_cell">
                       <span>Fractured Euclidean Cell <span class="recipe-role">starter</span></span>
@@ -9300,7 +9300,7 @@
                     <h3>Leftfield bass / experimental low-end <span class="recipe-role">Work In Progress</span></h3>
                     <code>leftfield_bass</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/leftfield_bass/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/leftfield_bass/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-leftfield_bass_pressure_cluster_system">
                       <span>Pressure Cluster System <span class="recipe-role">starter</span></span>
@@ -9350,7 +9350,7 @@
                     <h3>Afro house / organic groove <span class="recipe-role">Work In Progress</span></h3>
                     <code>afro_house</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/afro_house/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/afro_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-afro_house_dorian_percussion_pocket">
                       <span>Dorian Percussion Pocket <span class="recipe-role">starter</span></span>
@@ -9395,7 +9395,7 @@
                     <h3>Jersey club / club edits <span class="recipe-role">Work In Progress</span></h3>
                     <code>jersey_club</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/jersey_club/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/jersey_club/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-jersey_club_bounce_stab_triplet">
                       <span>Bounce Stab Triplet <span class="recipe-role">starter</span></span>
@@ -9440,7 +9440,7 @@
                     <h3>Baile funk / funk carioca <span class="recipe-role">Work In Progress</span></h3>
                     <code>baile_funk</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/baile_funk/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/baile_funk/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-baile_funk_tamborzao_stab_call">
                       <span>Tamborzao Stab Call <span class="recipe-role">starter</span></span>
@@ -9485,7 +9485,7 @@
                     <h3>Amapiano / log-drum inspired</h3>
                     <code>amapiano</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/amapiano/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/amapiano/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-amapiano_spacious_piano_pocket">
                       <span>Spacious Piano Pocket <span class="recipe-role">starter</span></span>
@@ -9535,7 +9535,7 @@
                     <h3>Progressive house</h3>
                     <code>progressive_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/progressive_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/progressive_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-progressive_house_festival_lift_intro">
                       <span>Festival Lift Intro <span class="recipe-role">starter</span></span>
@@ -9580,7 +9580,7 @@
                     <h3>Big room / festival stabs</h3>
                     <code>big_room</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/big_room/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/big_room/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-big_room_mainstage_stab_alarm">
                       <span>Mainstage Stab Alarm <span class="recipe-role">starter</span></span>
@@ -9625,7 +9625,7 @@
                     <h3>Acid house / 303 companion chords</h3>
                     <code>acid_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/acid_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/acid_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-acid_house_303_companion_stabs">
                       <span>303 Companion Stabs <span class="recipe-role">starter</span></span>
@@ -9670,7 +9670,7 @@
                     <h3>Deep house</h3>
                     <code>deep_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/deep_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/deep_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-deep_house_afterhours_stab_pocket">
                       <span>Afterhours Stab Pocket <span class="recipe-role">starter</span></span>
@@ -9715,7 +9715,7 @@
                     <h3>Tech house</h3>
                     <code>tech_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/tech_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/tech_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-tech_house_tight_stab_club_pocket">
                       <span>Tight Stab Club Pocket <span class="recipe-role">starter</span></span>
@@ -9760,7 +9760,7 @@
                     <h3>Minimal deep tech</h3>
                     <code>minimal_deep_tech</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/minimal_deep_tech/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/minimal_deep_tech/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-minimal_deep_tech_clipped_sub_pocket">
                       <span>Clipped Sub Pocket <span class="recipe-role">starter</span></span>
@@ -9805,7 +9805,7 @@
                     <h3>Garage house / swung house</h3>
                     <code>garage_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/garage_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/garage_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-garage_house_swung_organ_chop">
                       <span>Swung Organ Chop <span class="recipe-role">starter</span></span>
@@ -9850,7 +9850,7 @@
                     <h3>Future house</h3>
                     <code>future_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/future_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/future_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-future_house_rubber_pluck_bounce">
                       <span>Rubber Pluck Bounce <span class="recipe-role">starter</span></span>
@@ -9895,7 +9895,7 @@
                     <h3>French house / disco house <span class="recipe-role">Work In Progress</span></h3>
                     <code>french_house</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/french_house/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/french_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-french_house_filtered_disco_chop">
                       <span>Filtered Disco Chop <span class="recipe-role">starter</span></span>
@@ -9940,7 +9940,7 @@
                     <h3>Tropical house <span class="recipe-role">Work In Progress</span></h3>
                     <code>tropical_house</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/tropical_house/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/tropical_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-tropical_house_palm_pluck_loop">
                       <span>Palm Pluck Loop <span class="recipe-role">starter</span></span>
@@ -9985,7 +9985,7 @@
                     <h3>Organic house / melodic organic <span class="recipe-role">Work In Progress</span></h3>
                     <code>organic_house</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/organic_house/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/organic_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-organic_house_desert_pedal_call">
                       <span>Desert Pedal Call <span class="recipe-role">starter</span></span>
@@ -10030,7 +10030,7 @@
                     <h3>Lo-fi house</h3>
                     <code>lofi_house</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/lofi_house/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/lofi_house/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-lofi_house_dusty_chord_pocket">
                       <span>Dusty Chord Pocket <span class="recipe-role">starter</span></span>
@@ -10080,7 +10080,7 @@
                     <h3>Chill electronic / indie dance</h3>
                     <code>chill_electronic</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/chill_electronic/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/chill_electronic/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-chill_electronic_sunset_broken_chords">
                       <span>Sunset Broken Chords <span class="recipe-role">starter</span></span>
@@ -10125,7 +10125,7 @@
                     <h3>Electronic pop / bittersweet synth chords</h3>
                     <code>bittersweet_electropop</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/bittersweet_electropop/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/bittersweet_electropop/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-bittersweet_electropop_sad_bright_hook">
                       <span>Sad Bright Hook <span class="recipe-role">starter</span></span>
@@ -10170,7 +10170,7 @@
                     <h3>Synthwave / outrun</h3>
                     <code>synthwave</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/synthwave/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/synthwave/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-synthwave_night_drive_arp">
                       <span>The Night Drive Arp <span class="recipe-role">starter</span></span>
@@ -10215,7 +10215,7 @@
                     <h3>Chillwave / nostalgic synth pop</h3>
                     <code>chillwave</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/chillwave/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/chillwave/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-chillwave_haze_pad_postcard">
                       <span>Haze Pad Postcard <span class="recipe-role">starter</span></span>
@@ -10260,7 +10260,7 @@
                     <h3>Downtempo / ambient electronic</h3>
                     <code>downtempo</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/downtempo/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/downtempo/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-downtempo_dusk_drone_bed">
                       <span>Dusk Drone Bed <span class="recipe-role">starter</span></span>
@@ -10310,7 +10310,7 @@
                     <h3>Uplifting trance</h3>
                     <code>trance</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/trance/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/trance/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-trance_euphoric_gate_pluck">
                       <span>Euphoric Gate Pluck <span class="recipe-role">starter</span></span>
@@ -10355,7 +10355,7 @@
                     <h3>Psytrance / modal drive <span class="recipe-role">Work In Progress</span></h3>
                     <code>psytrance</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/psytrance/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/psytrance/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-psytrance_rolling_modal_gate">
                       <span>Rolling Modal Gate <span class="recipe-role">starter</span></span>
@@ -10400,7 +10400,7 @@
                     <h3>Melodic techno</h3>
                     <code>melodic_techno</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/melodic_techno/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/melodic_techno/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-melodic_techno_dusk_pluck_engine">
                       <span>Dusk Pluck Engine <span class="recipe-role">starter</span></span>
@@ -10445,7 +10445,7 @@
                     <h3>Peak-time techno</h3>
                     <code>peak_techno</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/peak_techno/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/peak_techno/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-peak_techno_warehouse_stab_motor">
                       <span>Warehouse Stab Motor <span class="recipe-role">starter</span></span>
@@ -10490,7 +10490,7 @@
                     <h3>Ambient techno</h3>
                     <code>ambient_techno</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/ambient_techno/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/ambient_techno/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-ambient_techno_fog_pad_machine">
                       <span>Fog Pad Machine <span class="recipe-role">starter</span></span>
@@ -10535,7 +10535,7 @@
                     <h3>Electro / robotic funk</h3>
                     <code>electro</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/electro/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/electro/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-electro_robot_funk_stabs">
                       <span>Robot Funk Stabs <span class="recipe-role">starter</span></span>
@@ -10580,7 +10580,7 @@
                     <h3>Hardstyle / euphoric hard dance <span class="recipe-role">Work In Progress</span></h3>
                     <code>hardstyle</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/hardstyle/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/hardstyle/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-hardstyle_euphoric_gate_lead">
                       <span>Euphoric Gate Lead <span class="recipe-role">starter</span></span>
@@ -10630,7 +10630,7 @@
                     <h3>UK garage / 2-step chords</h3>
                     <code>uk_garage</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/uk_garage/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/uk_garage/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-uk_garage_two_step_chord_skip">
                       <span>Two-Step Chord Skip <span class="recipe-role">starter</span></span>
@@ -10675,7 +10675,7 @@
                     <h3>Bassline / speed garage</h3>
                     <code>bassline</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/bassline/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/bassline/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-bassline_wobble_answer_stabs">
                       <span>Wobble Answer Stabs <span class="recipe-role">starter</span></span>
@@ -10720,7 +10720,7 @@
                     <h3>Dubstep / half-time bass <span class="recipe-role">Work In Progress</span></h3>
                     <code>dubstep</code>
                   </div>
-                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/dubstep/filename.md</code>.</p>
+                  <p>Work In Progress: paused until the core EDM lanes are strong enough for producer review. Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/dubstep/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-dubstep_half_time_weight">
                       <span>Half-Time Weight <span class="recipe-role">starter</span></span>
@@ -10765,7 +10765,7 @@
                     <h3>Drum and bass</h3>
                     <code>drum_and_bass</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/drum_and_bass/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/drum_and_bass/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-drum_and_bass_rolling_arp_pressure">
                       <span>Rolling Arp Pressure <span class="recipe-role">starter</span></span>
@@ -10810,7 +10810,7 @@
                     <h3>Liquid DnB</h3>
                     <code>liquid_dnb</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/liquid_dnb/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/liquid_dnb/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-liquid_dnb_soulful_pad_roll">
                       <span>Soulful Pad Roll <span class="recipe-role">starter</span></span>
@@ -10855,7 +10855,7 @@
                     <h3>Jungle / breaks</h3>
                     <code>jungle</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/jungle/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/jungle/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-jungle_amen_chop_stab_room">
                       <span>Amen Chop Stab Room <span class="recipe-role">starter</span></span>
@@ -10900,7 +10900,7 @@
                     <h3>Breakbeat / rave breaks</h3>
                     <code>breakbeat</code>
                   </div>
-                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and build a bridge launch plan; 10 legacy study configs remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/breakbeat/filename.md</code>.</p>
+                  <p>Authored recipe set for this style: one starter recipe, three variation recipes, one sectioned recipe, and one curated Live handoff recipe. Every config can save MIDI and prepare a bridge handoff plan when the local helper is ready; 10 older study files remain runnable on disk. Run any file with <code>python jamburgr.py --config configs/recipes/breakbeat/filename.md</code>.</p>
                   <ol class="config-list">
                     <li id="recipe-file-breakbeat_rave_chop_rewind">
                       <span>Rave Chop Rewind <span class="recipe-role">starter</span></span>
@@ -12316,7 +12316,7 @@ sample_search_sections: auto</code></pre></div>
 <h2 class="anchor-heading"><a href="#18-style-library-overview" aria-label="Link to 18. Style library overview">#</a>18. Style library overview</h2>
 <p>The style library controls default BPM, default voicing, default pattern, default bass style, default pad style, default lead style, default drum style/density/swing, named progression options, descriptive notes, and broad reference tags.</p>
 <p>When <code>pattern</code>, <code>voicing</code>, <code>bass_style</code>, <code>pad_style</code>, <code>lead_style</code>, <code>drum_style</code>, <code>drum_density</code>, or <code>drum_swing</code> are set to <code>style</code>, jamburgr uses the selected style’s defaults. Each style also defines practical layer registers and lead feel settings. Leave <code>bass_octave</code>, <code>pad_octave</code>, or <code>lead_octave</code> blank/<code>None</code> to use these style registers; set them explicitly when you want to override the preset.</p>
-<p>Use <code>--style-info</code> to inspect the educational The Jam Library metadata for a style without generating MIDI:</p>
+<p>Use <code>--style-info</code> to inspect the educational Jam Library notes for a style without generating MIDI:</p>
 <div class="code-panel"><div class="code-panel__bar"><span>code</span><button class="copy-button" type="button">Copy</button></div><pre><code class=" language-bash">python jamburgr.py --style-info synthwave</code></pre></div>
 <div class="table-scroll"><table>
 <thead><tr>
@@ -13129,11 +13129,11 @@ sample_search_sections: auto</code></pre></div>
 </tr>
 </tbody></table></div>
 </section>
-<section class="doc-chunk manual-section" id="19-the-jam-library-metadata">
-<h2 class="anchor-heading"><a href="#19-the-jam-library-metadata" aria-label="Link to 19. The Jam Library metadata">#</a>19. The Jam Library metadata</h2>
-<p>The Jam Library metadata in <code>jam_library.py</code> gives each style a richer educational record. The MIDI generator still uses the compact style defaults in <code>jamburgr.py</code>; the atlas exists to make jamburgr a better learning tool for producers.</p>
-<p>The HTML documentation renders this metadata as searchable The Jam Library cards, deep-linked detail sections, timeline/geography tables, generated style visuals, and a source appendix. Use those pages when you want to compare styles before choosing a config or CLI preset. Each atlas page also shows the resolved drum preset, density, swing hint, and General MIDI routing guidance so rhythm support is visible alongside chords, bass, pads, and leads.</p>
-<figure class="technical-plate contextual-graphic"><img class="technical-asset" src="assets/graphics/style-atlas-model.svg" alt="Diagram connecting each style to defaults, anatomy, reference canon, producer exercises, and source IDs."></figure>
+<section class="doc-chunk manual-section" id="19-the-jam-library-guide">
+<h2 class="anchor-heading"><a href="#19-the-jam-library-guide" aria-label="Link to 19. The Jam Library guide">#</a>19. The Jam Library guide</h2>
+<p>The Jam Library guide in <code>jam_library.py</code> gives each style a richer educational record. The MIDI generator still uses the compact style defaults in <code>jamburgr.py</code>; the atlas exists to make jamburgr a better learning tool for producers.</p>
+<p>The HTML documentation renders this guide as searchable Jam Library cards, deep-linked detail sections, timeline/geography tables, generated style visuals, and a source appendix. Use those pages when you want to compare styles before choosing a config or CLI preset. Each atlas page also shows the resolved drum preset, density, swing hint, and General MIDI routing guidance so rhythm support is visible alongside chords, bass, pads, and leads.</p>
+<figure class="technical-plate contextual-graphic"><img class="technical-asset" src="assets/graphics/style-atlas-model.svg" alt="Diagram connecting each style to defaults, anatomy, reference canon, producer exercises, and source references."></figure>
 <p>Each style record includes:</p>
 <ul class="md-list">
 <li>style family, AKA names, geography, era, and short history</li>
@@ -13143,13 +13143,13 @@ sample_search_sections: auto</code></pre></div>
 <li>drum preset, density, swing hint, and DAW routing guidance</li>
 <li>producer exercises for writing original MIDI ideas in the lane</li>
 <li>a reference canon of 10 artists and 10 tracks for listening context</li>
-<li>source IDs that resolve to a source appendix</li>
+<li>source references that resolve to a source appendix</li>
 </ul>
 <p>The reference canon is not a prompt to imitate a recording. Use it to understand tempo ranges, arrangement roles, sound-design vocabulary, and broad scene context, then generate original MIDI with jamburgr&#x27;s chord, bass, pad, lead, and optional drum engines.</p>
 <h3 id="producer-setup-recipes" class="anchor-heading"><a href="#producer-setup-recipes" aria-label="Link to Producer setup recipes">#</a>Producer setup recipes</h3>
 <p>The Jam Library also includes a setup recipe for every style. Recipes live in <code>jamburgr_setup.py</code> and are rendered in the HTML docs on each style detail page. They translate the atlas into practical DAW choices for producers: chords, bass, pads, leads, drums, routing, effects, and “listen for” learning prompts. The same module now keeps structured layer setup intents for all five layers so docs, arrangement export, and jamburgr Live can share the same musical intent vocabulary.</p>
 <p>Recipes use Ableton stock devices as clear starting points, with hardware-friendly wording where useful. They do not require paid plugins and they do not include Ableton device paths. For example, a synthwave recipe may suggest Ableton Wavetable or Analog for wide chords, Drift for mono bass, a Drum Rack or General MIDI kit for drums, and return-track delay/reverb for fast arrangement work. The point is to start a session quickly, then choose your own sounds and edit the MIDI into an original track.</p>
-<p>For the optional jamburgr Live workflow, every recipe can also be turned into a non-mutating Live launch plan. Non-arrangement recipes become usable loop or pack scenes with the enabled chord, bass, pad, lead, and drum lanes; sectioned and curated handoff recipes preserve their arrangement sections. jamburgr itself remains MIDI-only; jamburgr Live is the Ableton-specific layer that can turn those setup ideas into tracks, devices, macros, and mixer defaults.</p>
+<p>For the optional jamburgr Live workflow, every recipe can also be turned into a non-mutating Live handoff plan when the local bridge is ready. Non-arrangement recipes become usable loop or pack scenes with the enabled chord, bass, pad, lead, and drum lanes; sectioned and curated handoff recipes preserve their arrangement sections. jamburgr itself remains MIDI-only; jamburgr Live is the Ableton-specific layer that can turn those setup ideas into tracks, devices, macros, and mixer defaults.</p>
 <p>Each recipe covers:</p>
 <ul class="md-list">
 <li>chords: a stock or hardware-friendly poly synth starting point</li>
@@ -13163,27 +13163,27 @@ sample_search_sections: auto</code></pre></div>
 <li>listen for: the groove, arrangement, texture, and mix behaviors worth studying while keeping the generated MIDI original</li>
 </ul>
 <p>The structured setup intents add per-layer instrument family, sound character, mix role, effects/routing hint, hardware note, and optional capability tags. Arrangement export version 2 can include these DAW-agnostic hints without adding Ableton paths or plugin assumptions; jamburgr Live remains responsible for mapping them to actual Live devices, racks, parameters, and mixer defaults.</p>
-<p>The source appendix is stored as <code>STYLE_METADATA_SOURCES</code>. The CLI exposes source IDs through <code>--style-info</code> so producers can connect the generated settings to broader listening and learning context:</p>
+<p>The source appendix is stored as <code>STYLE_METADATA_SOURCES</code>. The CLI exposes source references through <code>--style-info</code> so producers can connect the generated settings to broader listening and learning context:</p>
 <div class="code-panel"><div class="code-panel__bar"><span>code</span><button class="copy-button" type="button">Copy</button></div><pre><code class=" language-bash">python jamburgr.py --style-info deep_house</code></pre></div>
 </section>
 <section class="doc-chunk manual-section" id="20-recipe-config-library">
 <h2 class="anchor-heading"><a href="#20-recipe-config-library" aria-label="Link to 20. Recipe Config Library">#</a>20. Recipe Config Library</h2>
 <p>The repository includes a recipe config library under <code>configs/recipes/</code>. Each style has 10 runnable Markdown study configs plus a smaller authored public recipe set.</p>
 <p>These configs are not song duplication recipes. They use The Jam Library as educational context, then choose original jamburgr settings for chords, bass, pads, leads, editable General MIDI drum lanes, variations, and arrangement sketches. Public recipe sets are labeled starter, variation, sectioned, and curated Live handoff. Internally those labels stay mapped to <code>hero</code>, <code>alternate</code>, <code>arrangement</code>, and <code>bridge_ready</code> so existing configs keep working.</p>
-<p>All 42 Jam Library styles now have authored public recipe sets with one starter recipe, three variation lanes, one sectioned recipe, and one curated Live handoff recipe. Every current recipe can save a valid Standard MIDI pack and can build a jamburgr Live launch plan; <code>bridge_ready</code> means the curated handoff role with richer section clips, setup intents, sound-design cards, and sample-search prompts. Older generated studies remain runnable as legacy configs.</p>
-<p>Quality reset: styles with a current Jam Library audit score below <code>6.0</code> are labeled <code>Work In Progress</code> and paused for continued recipe-expansion, showcase, bridge-proof, and native-app work until the core acid-house, techno, and progressive-house lanes are strong enough for producer review. Those styles remain runnable MIDI recipes and bridge-plan-capable Live starts, but they should be treated as rough prompts rather than producer-ready genre starters.</p>
+<p>All 42 Jam Library styles have authored public recipe sets with one starter recipe, three variation lanes, one sectioned recipe, and one curated Live handoff recipe. Every current recipe can save a valid Standard MIDI pack, and the optional jamburgr Live path can prepare a handoff plan for a ready local bridge. The curated handoff role adds richer section clips, setup intents, sound-design cards, and sample-search prompts. Older study files remain runnable for deeper exploration.</p>
+<p>Some styles are labeled <code>Work In Progress</code>. They are still runnable MIDI recipes and bridge-plan-capable Live starts, but they need more producer listening before they become favorite genre starters. Treat those lanes as editable prompts and keep your best ideas from the pack.</p>
 <p>Use any config with:</p>
 <div class="code-panel"><div class="code-panel__bar"><span>code</span><button class="copy-button" type="button">Copy</button></div><pre><code class=" language-bash">python jamburgr.py --config configs/recipes/acid_house/acid_house_303_companion_stabs.md</code></pre></div>
 <p>Each config includes:</p>
 <ul class="md-list">
 <li>normal jamburgr key/value settings</li>
-<li>optional recipe metadata such as <code>recipe_role</code>, <code>recipe_slug</code>, <code>canon_track</code>, <code>summary</code>, and <code>mood_tags</code></li>
+<li>optional recipe notes such as <code>recipe_role</code>, <code>recipe_slug</code>, <code>canon_track</code>, <code>summary</code>, and <code>mood_tags</code></li>
 <li>a learning goal</li>
 <li>recipe context</li>
 <li>notes explaining the selected jamburgr settings</li>
 <li>chord, bass, pad, lead, and drum sound design suggestions</li>
 <li>an arrangement idea</li>
-<li>source IDs from The Jam Library</li>
+<li>source references from The Jam Library</li>
 </ul>
 <p>The HTML documentation groups the library by style family. Every style detail page now exposes public starter, variation, sectioned, and curated Live handoff recipe sets ahead of the legacy studies, so producers can start with a named musical lane instead of a generic template.</p>
 </section>
