@@ -88,7 +88,7 @@
       "kind": "style_atlas_model",
       "src": "assets/graphics/style-atlas-model.svg",
       "alt": "Diagram connecting each style to defaults, anatomy, reference canon, producer exercises, and source IDs.",
-      "purpose": "Explain the educational The Jam Library data model."
+      "purpose": "Explain the educational Styles guide data model."
     },
     {
       "kind": "daw_import_workflow",

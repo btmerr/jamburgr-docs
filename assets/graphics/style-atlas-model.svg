@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 300" role="img" aria-labelledby="title desc">
-  <title id="title">The Jam Library model</title>
+  <title id="title">Styles guide model</title>
   <desc id="desc">A data model diagram showing each style connected to defaults, anatomy, reference canon, producer exercises, and source IDs.</desc>
   <rect width="720" height="300" fill="#fffdf7"/>
   <text x="40" y="36" fill="#77736a" font-family="Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="12" font-weight="700" letter-spacing="1.2">STYLE ATLAS MODEL</text>
