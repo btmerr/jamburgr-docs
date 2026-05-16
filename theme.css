@@ -124,6 +124,10 @@
   --panel-ink: var(--jb-color-cream);
   --panel-muted: var(--jb-color-rule);
   --rail: var(--jb-color-sesame);
+  --rail-ink: var(--jb-color-cream);
+  --rail-muted: var(--jb-color-rule);
+  --rail-line: var(--jb-color-sesame-soft);
+  --rail-strong: var(--jb-color-bun);
   --code: var(--jb-color-sesame);
   --code-bg: var(--jb-color-surface);
   --font-display: var(--jb-font-display);
